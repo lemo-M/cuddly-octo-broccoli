@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ActivityC"
+            android:exported="false"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ActivityB"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

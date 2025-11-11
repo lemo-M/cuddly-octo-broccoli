@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="这是页面-B"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonToC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="50dp"
+            android:text="发送User到页面 C" />
+
+        <Button
+            android:id="@+id/buttonOpenBrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 打开浏览器 (ACTION_VIEW)" />
+
+        <Button
+            android:id="@+id/buttonOpenMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="2. 打开地图 (ACTION_VIEW)" />
+
+        <Button
+            android:id="@+id/buttonDial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3. 打开拨号盘 (ACTION_DIAL)" />
+
+        <Button
+            android:id="@+id/buttonShareText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="4. 分享文本 (ACTION_SEND)" />
+
+        <Button
+            android:id="@+id/buttonSendSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="5. 发送短信 (ACTION_SENDTO)" />
+
+    </LinearLayout>
+</ScrollView>
